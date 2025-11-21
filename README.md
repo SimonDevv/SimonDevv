@@ -1,4 +1,4 @@
-# 👋 Hi, I'm **Simón**  
+# 👋 Hi, I'm **Simon**  
 ### 🚀 Python Developer · Automation · Web Scraping · Remote Freelancer  
 
 Welcome to my GitHub profile!  

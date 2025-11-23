@@ -1,8 +1,6 @@
-# 🧑‍💻 SIMON DEV  
-### Developer · Python · Automation · Multiplatform
-
-🌐 **Website:** https://simondev.tech  
-📧 **Email:** simon@simondev.tech  
+<!-- Banner minimalista -->
+<h1 align="center">🧑‍💻 SIMON DEV</h1>
+<p align="center">Developer · Python · Automation · Multiplatform</p>
 
 ---
 
@@ -10,129 +8,82 @@
 
 I'm a developer focused on building practical tools that help people and small businesses:
 
-- 🐍 Python automation & scripting  
-- 🔍 Web scraping  
-- 🌐 Small APIs (FastAPI)  
-- 💻 Multiplatform dev (Python · Java · C# · Unity)  
-- 🎨 Simple & clean web interfaces (HTML/CSS)
+- 🐍 **Python automation & scripting**  
+- 🔍 **Web scraping**  
+- 🌐 **Small APIs (FastAPI)**  
+- 💻 **Multiplatform development (Python · Java · C# · Unity)**  
+- 🎨 **Clean and simple web interfaces (HTML/CSS)**  
 
-I like writing code that solves real problems.  
-Focused on remote work, freelancing, and small real-world projects.
-
----
-
-## 🧠 Dev Philosophy
-
-- Keep it simple – small tools that do one thing well  
-- Practical over perfect – shipped code beats “someday” code  
-- Readable code – future-me should understand it fast  
-- Automate boring stuff – if I repeat it, I script it  
-
----
-
-## 💻 Example Snippet
-
-\`\`\`python
-import requests
-from bs4 import BeautifulSoup
-
-def get_price(url: str) -> float | None:
-    """Simple example: extract price from a product page."""
-    resp = requests.get(url, timeout=10)
-    resp.raise_for_status()
-    soup = BeautifulSoup(resp.text, "html.parser")
-
-    price_el = soup.select_one(".price, .product-price, [data-price]")
-    if not price_el:
-        return None
-
-    text = price_el.get_text(strip=True)
-    digits = "".join(ch for ch in text if ch.isdigit() or ch == ".")
-    return float(digits) if digits else None
-
-if __name__ == "__main__":
-    url = "https://example.com/perfume"
-    price = get_price(url)
-    print(f"Price: {price}€" if price is not None else "Price not found")
-\`\`\`
+I like writing code that actually solves problems — not just filler.  
+Focused on remote work, freelancing and small real-world projects.
 
 ---
 
 ## 🧰 Tech Stack
 
 ### 🐍 Core
-- Python 3  
-- FastAPI  
-- Flask  
-- BeautifulSoup4  
-- Selenium  
+![Python](https://img.shields.io/badge/-Python-0A0F1F?style=for-the-badge&logo=python&logoColor=38bdf8)
+![FastAPI](https://img.shields.io/badge/-FastAPI-0A0F1F?style=for-the-badge&logo=fastapi&logoColor=38bdf8)
+![BS4](https://img.shields.io/badge/-BeautifulSoup4-0A0F1F?style=for-the-badge&logo=python&logoColor=38bdf8)
 
 ### 💻 Development
-- Java  
-- C#  
-- Unity  
-- SQL  
-- Git & GitHub  
+![Java](https://img.shields.io/badge/-Java-0A0F1F?style=for-the-badge&logo=coffeescript&logoColor=38bdf8)
+![C#](https://img.shields.io/badge/-CSharp-0A0F1F?style=for-the-badge&logo=csharp&logoColor=38bdf8)
+![Unity](https://img.shields.io/badge/-Unity-0A0F1F?style=for-the-badge&logo=unity&logoColor=38bdf8)
+![SQL](https://img.shields.io/badge/-SQL-0A0F1F?style=for-the-badge&logo=mysql&logoColor=38bdf8)
 
 ### 🌐 Web
-- HTML  
-- CSS  
-- JSON / XML  
-- APIs  
+![HTML](https://img.shields.io/badge/-HTML-0A0F1F?style=for-the-badge&logo=html5&logoColor=38bdf8)
+![CSS](https://img.shields.io/badge/-CSS-0A0F1F?style=for-the-badge&logo=css3&logoColor=38bdf8)
+![JSON](https://img.shields.io/badge/-JSON-0A0F1F?style=for-the-badge&logo=json&logoColor=38bdf8)
 
 ---
 
-## 📂 Featured Projects  
-*(In progress — coming soon)*
+## 📂 Featured Projects
+
+🚧 *Currently being built and polished — coming very soon.*
 
 ### 🔍 Perfume Price Scraper  
-Python scraper that extracts perfume prices from multiple stores.
+Python script to extract perfume prices across multiple stores.
 
 ### 🤖 Automation Bot  
-Automates repetitive tasks: file organization, alerts, routines.
+Organizes files, sends alerts, schedules tasks and reduces repetitive work.
 
 ### 🌐 Perfume Recommendation API  
-FastAPI backend recommending perfumes by notes & categories.
-
----
-
-## 🖥️ dev@terminal
-
-\`\`\`
-simon@dev:~$ whoami
-> developer · python · automation
-
-simon@dev:~$ focus
-> scraping, small tools, useful scripts
-
-simon@dev:~$ portfolio
-> https://simondev.tech
-\`\`\`
+FastAPI backend to recommend perfumes based on notes and categories.
 
 ---
 
 ## 📊 GitHub Stats
 
-![Simon's GitHub stats](https://github-readme-stats.vercel.app/api?username=SimonDevv&show_icons=true&theme=tokyonight&hide_border=true)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=SimonDevv&layout=compact&theme=tokyonight&hide_border=true)
+<div align="center">
+
+<!-- Stats -->
+<img height="150" src="https://github-readme-stats.vercel.app/api?username=SimonDevv&show_icons=true&theme=tokyonight&hide_border=true" />
+
+<!-- Langs -->
+<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SimonDevv&layout=compact&theme=tokyonight&hide_border=true" />
+
+</div>
 
 ---
 
 ## 🛠️ What I'm Working On
-
-- Improving Python automation & scraping  
-- Building freelance-ready tools  
-- Expanding my portfolio → https://simondev.tech  
-- Designing simple, clean UI components  
-
----
-
-## 📫 Contact
-
-- 📧 Email: **simon@simondev.tech**  
-- 🌐 Website: **https://simondev.tech**  
-- 🐙 GitHub: **https://github.com/SimonDevv**  
+- Improving Python automation and scraping tools  
+- Building real-world freelance projects  
+- Expanding my portfolio → **https://simondev.tech**  
+- Learning to design cleaner UI and better layouts  
 
 ---
 
-⭐ **If you like my work, feel free to star my repositories!**
+## 📫 Contact Me
+
+If you'd like to collaborate, feel free to reach out:
+
+📧 **Email:** [simon@simondev.tech](mailto:simon@simondev.tech)  
+🌐 **Website:** https://simondev.tech  
+🐙 **GitHub:** https://github.com/SimonDevv  
+
+---
+
+<h3 align="center">⭐ If you like my work, feel free to star my repositories!</h3>

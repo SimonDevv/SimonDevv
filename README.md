@@ -1,42 +1,66 @@
-# 👋 Hi, I'm **Simon**  
-### 🚀 Python Developer · Automation · Web Scraping · Remote Freelancer  
+# 👋 Hi, I'm Simon  
+**Developer · Python · Automation · Web · Multiplatform**
 
-Welcome to my GitHub profile!  
-I'm a developer focused on building practical tools with Python — automations, scrapers, APIs, and small applications.  
-My goal is to grow as a freelancer and create useful projects that help people and businesses save time.
+I'm a developer focused on building practical tools that save time and solve real problems:
+automations, scrapers, small APIs, and clean web interfaces.  
+I have a strong foundation from my Multiplatform App Development studies (DAM), working with
+Python, Java, C#, Unity, SQL, HTML/CSS and more.
+
+My goal is to grow as a remote freelancer and build useful, real-world projects.
 
 ---
 
 ## 🔧 Tech Stack
-- **Python 3**
+
+### 🐍 **Core**
+- Python 3
 - FastAPI · Flask
 - Requests · BeautifulSoup4 · Selenium
 - Pandas
+
+### 💻 **Software Development**
+- Java · C#
+- Unity
+- SQL · Relational Databases
 - Git · GitHub
-- HTML · CSS · JavaScript (basic)
+
+### 🌐 **Web**
+- HTML · CSS
+- Basic JavaScript
+- APIs · JSON · XML
 
 ---
 
-## 📂 Featured Projects  
-(Coming soon — currently building them)
+## 📂 Featured Projects
+*(More coming — currently building and polishing them)*
 
-- 🔍 **Perfume Price Scraper** – Python script that extracts perfume prices from multiple stores  
-- 🤖 **Automation Bot** – Organizes files, sends alerts, and automates daily tasks  
-- 🌐 **Perfume API** – API built with FastAPI for searching perfumes by notes and categories  
+### 🔍 **Perfume Price Scraper**
+Python script that extracts perfume prices from multiple online stores and generates a clean dataset.
+
+### 🤖 **Automation Bot**
+Automates repetitive tasks: organizing files, sending alerts, scheduling routines.
+
+### 🌐 **Perfume Recommendation API**
+Small FastAPI project that recommends perfumes based on notes and categories.
 
 ---
 
 ## 🛠️ Currently Working On
-- Improving my Python skills  
-- Building my personal portfolio website → **simondev.tech**  
-- Creating small freelance projects  
+- Improving and polishing my Python skills  
+- Growing my freelance toolkit (automation, scraping, mini APIs)  
+- Developing my personal website → **https://simondev.tech**  
+- Creating practical projects to help people and businesses  
 
 ---
 
 ## 📫 Contact
+
 If you'd like to collaborate, feel free to reach out:
 
-**📧 Email:** simon@simondev.tech  
-**🌐 Website:** https://simondev.tech  
+📧 Email: **simon@simondev.tech**  
+🌐 Website: **https://simondev.tech**  
+🐙 GitHub: **github.com/SimonDevv**
 
 ---
+
+### ⭐ If you like my work, feel free to star my repositories!
